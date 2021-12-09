@@ -23,7 +23,7 @@ function Inverse_matrix_method(A, B)
     x = ['x','y','z'];
     siz = size(B);
     siz = siz(:,1);
-    disp("Розришена матриця:");
+    disp("Розширена матриця:");
     disp([A,B]);
     disp("Відповідь:");
     rez = inv(A)*B;

@@ -25,7 +25,7 @@ function cramer(A, B)
         x = ['x','y','z'];
         siz = size(B);
         siz = siz(:,1);
-        disp("Розришена матриця:");
+        disp("Розширена матриця:");
         disp([A,B]);
         disp("Відповідь:");
         for i = 1:1:siz      

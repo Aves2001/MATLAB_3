@@ -24,7 +24,7 @@ function gauss(A, B)
     siz = size(B);
     siz = siz(:,1);
     AB = [A B];
-    disp("Розришена матриця:");
+    disp("Розширена матриця:");
     disp(AB);
     disp("Відповідь:");
     if det(A) ~= 0
